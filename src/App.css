@@ -1,0 +1,104 @@
+.loginPage {
+  width: 100vw;
+  height: 100vh;
+  background: #1488cc; /* fallback for old browsers */
+  background: var(--bg-color-chrome);
+  background: var(--bg-color-firefox);
+  justify-content: center;
+}
+Button {
+  /* background: var(--bg-color-chrome);
+  background: var(--bg-color-firefox); */
+}
+.add-btn {
+  background: var(--bg-color-chrome);
+  background: var(--bg-color-firefox);
+}
+.sign-btn {
+  background: var(--bg-color-chrome);
+  background: var(--bg-color-firefox);
+  border-radius: 10px !important;
+}
+.edit-btn {
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+}
+.info-button {
+  background-color: #045de9;
+  background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+}
+.delete-btn {
+  background-color: #990000;
+  background-image: linear-gradient(147deg, #990000 0%, #ff0000 74%);
+}
+.loginCard {
+  box-shadow: -21px 16px 14px 8px rgba(0, 0, 0, 0.47);
+  -webkit-box-shadow: -21px 16px 14px 8px rgba(0, 0, 0, 0.47);
+  -moz-box-shadow: -21px 16px 14px 8px rgba(0, 0, 0, 0.47);
+}
+
+.sign-h1 {
+  /* text-shadow: 1px 5px 3px rgba(0, 0, 0, 0.49); */
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.form-err {
+  text-align: center;
+  color: red;
+  text-transform: capitalize;
+}
+.form-label {
+  text-transform: capitalize;
+  font-weight: 50;
+}
+Table {
+  font-family: "Roboto", sans-serif;
+}
+.input {
+  text-transform: capitalize;
+}
+th,
+td,
+tr {
+  text-transform: capitalize;
+}
+.input-login {
+  flex-direction: row;
+  border-radius: 10px !important;
+  margin: 1rem;
+  min-width: 10rem;
+}
+.swap-login {
+  margin: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+.brand-logo {
+  width: 7rem !important;
+  height: 6rem;
+}
+/* skeleton animation */
+
+.skeleton {
+  opacity: 0.7;
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+.skeleton-text {
+  width: 100%;
+  height: 0.2rem;
+  margin-bottom: 0.25rem;
+  border-radius: 0.125rem;
+}
+.skeleton-text:last-child {
+  margin-bottom: 0;
+  width: 80%;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 70%);
+  }
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}
+

@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+Link {
+  text-decoration: none !important;
+}
+a {
+  text-decoration: none !important;
+}
+.form {
+  margin-top: 10rem !important;
+  display: flex !important;
+  text-transform: capitalize;
+}
+.form-group {
+  flex-direction: row !important;
+  margin-left: 1rem;
+}
+.input {
+  flex-direction: row;
+  border-radius: 10px !important;
+  margin: 1rem;
+  min-width: 10rem;
+  text-transform: capitalize !important;
+}
+.totalAmount {
+  margin: 0.5rem;
+  border-radius: 50% !important;
+}
+.table {
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
+  text-transform: capitalize;
+}
+.tableHead {
+  border-radius: 1rem !important;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  background: var(--bg-color-chrome);
+  background: var(--bg-color-firefox);
+  color: #fff;
+}
+tr {
+  margin-top: 1rem !important;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  text-transform: capitalize !important;
+}
+th {
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+}
+
+td {
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+}
+.Control-btn {
+  border-radius: 20px !important;
+  margin: 0 2rem;
+}
+.work-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 12% !important;
+  border: none !important;
+  padding: 1rem;
+  width: 20rem;
+  text-align: center !important;
+  justify-content: center;
+  align-items: center;
+}
+.card-body {
+  display: flex;
+}
+.div1,
+.div2 {
+  flex-direction: column;
+  margin: 1rem;
+}
+.card-text {
+  font-size: 20px;
+}
+
+@media (max-width: 1280px) {
+  .Control-btn {
+    margin: 0 10px;
+  }
+}
+@media (max-width: 600px) {
+  Table {
+    width: 100wh;
+    padding: 0;
+    margin: 0;
+  }
+  .form {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .form .form-group {
+    flex-direction: column !important;
+  }
+  .form .form-group .input {
+    min-width: 30rem;
+  }
+  .search {
+    min-width: 10rem;
+  }
+  .Control-btn {
+    margin: 4px;
+  }
+}
+/* model */
+
+.dialog-model {
+  text-align: center;
+  border-radius: 10rem !important;
+  border: none !important;
+}
+.model-table {
+  background: var(--bg-color-chrome) !important;
+}
+.model-title {
+  color: blue;
+}
+.model-tr {
+  box-shadow: none !important;
+}
+.table-field,
+.table-data {
+  box-shadow: none !important;
+  justify-content: center;
+  text-align: start;
+  padding: 10px;
+}
